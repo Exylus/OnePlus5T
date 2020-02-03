@@ -106,12 +106,12 @@ article.flex h4 {
 
 /*IMG BACKGROUND*/
 #section1 {
-  background: url('../img/oneplus_phone_5T.jpg') no-repeat center -50px fixed;
+  background: url('../img/oneplus_phone_5t.jpg') no-repeat center -50px fixed;
   background-size: cover;
   min-height: 960px;
 }
 #section2 {
-  background: url('../img/oneplus_phone_5T.png') no-repeat center -50px fixed;
+  background: url('../img/oneplus_phone_5t.png') no-repeat center -50px fixed;
   background-size: cover;
   min-height: 960px;
 }
