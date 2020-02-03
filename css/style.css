@@ -1,0 +1,48 @@
+/*BASE*/
+html, body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #E2E2E2;
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+}
+div.clear {
+  clear: both;
+}
+
+/*BLOC CONTENEUR*/
+div .spec {
+  width: 50%;
+  position: absolute;
+  top: 33%;
+  right: 5%;
+}
+div .Lava {
+  width: 33%;
+  height: auto;
+  float: right;
+  position: relative;
+  right: 5%;
+  padding: 2%;
+  background: #FCFCFC;
+}
+ article .flex {
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+article .bloc {
+  width: 33%;
+  height: auto;
+  float: left;
+  position: relative;
+  left: 2%;
+  padding: 1%;
+  background-color: #FCFCFC;
+  color: #666;
+}
