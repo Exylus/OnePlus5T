@@ -18,7 +18,7 @@ div .spec {
   top: 33%;
   right: 5%;
 }
-div .Lava {
+div .lava {
   width: 33%;
   height: auto;
   float: right;
@@ -27,7 +27,7 @@ div .Lava {
   padding: 2%;
   background: #FCFCFC;
 }
- article .flex {
+ article.flex {
    display: -webkit-flex;
    display: -moz-flex;
    display: -ms-flex;
@@ -36,7 +36,7 @@ div .Lava {
    flex-direction: row;
    justify-content: space-between;
  }
-article .bloc {
+article.bloc {
   width: 33%;
   height: auto;
   float: left;
@@ -45,4 +45,74 @@ article .bloc {
   padding: 1%;
   background-color: #FCFCFC;
   color: #666;
+}
+#box-left {
+  position: fixed;
+  top: 9%;
+  right: 0;
+  left: inherit;
+  margin: auto;
+  width: 33%;
+  height: auto;
+  padding: 2%;
+  background-color: #FCFCFC;
+  z-index: 6;
+  float: none;
+}
+#box-left img {
+  float: left;
+  margin-right: 5%;
+}
+
+/*TITRES ET ELEMENTS*/
+div.spec h2 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+article.bloc h4 {
+  margin-top: 0;
+  color: #333;
+}
+article.bloc h2 {
+  font-size: 2.2rem;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #000;
+}
+article.bloc p{
+  margin-bottom: 0;
+  color: #333;
+}
+div.lava h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000;
+}
+div.lava p {
+  margin-bottom: 0;
+}
+div.lava h2 strong {
+  color: #eb0028;
+}
+article.flex h3 {
+  font-size: 1.3rem;
+}
+article.flex h4 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/*IMG BACKGROUND*/
+#section1 {
+  background: url('../img/oneplus_phone_5T.jpg') no-repeat center -50px fixed;
+  background-size: cover;
+  min-height: 960px;
+}
+
+#section2 {
+  background: url('../img/oneplus_phone_5T.png') no-repeat center -50px fixed;
+  background-size: cover;
+  min-height: 960px;
 }
